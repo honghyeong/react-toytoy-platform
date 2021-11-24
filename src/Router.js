@@ -1,15 +1,15 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
-import Temp from "./components/Temp";
+import UserSignUp from "./components/UserSignUp";
 
 const AppRouter = () => {
   return (
     <BrowserRouter>
+      <nav> </nav>
       <Routes>
         <Route exact path="/" element={<Home />}></Route>
-        <Route exact path="/Home" element={<Home />}></Route>
-        <Route exact path="/Temp" element={<Temp />}></Route>
+        <Route exact path="/users/signup" element={<UserSignUp />}></Route>
       </Routes>
     </BrowserRouter>
   );
