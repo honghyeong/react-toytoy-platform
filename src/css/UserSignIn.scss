@@ -1,0 +1,32 @@
+.layout-default .page-login {
+  background-color: #fff0d3;
+}
+
+.card-body {
+  border-radius: 10%;
+  border: 1px solid #3f3f3f;
+  width: 80vw;
+  height: 60vh;
+  background-color: white;
+}
+
+.split {
+  display: flex;
+}
+
+.login-card {
+  width: 30rem;
+  padding: 4rem;
+  margin: 0 auto 1rem;
+  border: none;
+  box-shadow: 10px 10px 20px 1px;
+  &.form-group {
+    &input {
+      border: none;
+      border-bottom: 1px solid #dedee6;
+    }
+  }
+}
+
+.form-control {
+}
