@@ -36,13 +36,14 @@ const UserSignIn = () => {
                 <div className="card login-card">
                   <div className="card-body">
                     <h2 className="text-center">로그인</h2>
-                    <form>
+                    <form className="form-group">
                       <input
                         type="text"
                         name="email"
                         placeholder="이메일"
                         value={email}
                         onChange={onChange}
+                        className="form-control"
                       />
                       <input
                         type="text"
@@ -50,16 +51,25 @@ const UserSignIn = () => {
                         placeholder="비밀번호"
                         value={password}
                         onChange={onChange}
+                        className="form-control"
                       />
                       <div className="split">
-                        <input
-                          className="checkbox"
-                          type="checkbox"
-                          onClick={toggleCheck}
-                          checked={check}
-                        />
-                        <div className="left">자동로그인</div>
+                        <div className="left">
+                          <div className="custom-checkbox">
+                            <label>
+                              <input
+                                className="checkbox"
+                                type="checkbox"
+                                onClick={toggleCheck}
+                                checked={check}
+                              />
+                            </label>
+                          </div>
+                          <div className="custom-autologin">자동로그인</div>
+                        </div>
                         <div className="right">비밀번호 찾기</div>
+                      </div>
+                      <div className="user-login">
                         <button type="submit">로그인</button>
                       </div>
                     </form>
