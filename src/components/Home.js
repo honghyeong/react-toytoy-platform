@@ -17,7 +17,7 @@ const Home = () => {
           <div className="landing-1">
             <div className="container">
               <div className="left">
-                <img className="logo" src="logo1.svg" alt="logo.svg" />
+                <img className="logo" src="logo.svg" alt="logo.svg" />
                 <h1>장난감 플랫폼, 토이토이</h1>
                 <p>
                   ToyToy는 어른과 어린이 모두를 위한 장난감 중고거래
