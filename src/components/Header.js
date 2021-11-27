@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import "../css/Header.scss";
-import "../../public/logo.svg";
-import "../../public/search.svg";
-import "../../public/toggle-menu.svg";
+import logo from "../assets/logo.svg";
+import search from "../assets/search.svg";
+import togglemenu from "../assets/togglemenu.svg";
+
 const Header = () => {
   const [width, setWidth] = useState(window.innerWidth > 620);
   const [toggle, setToggle] = useState(false);
@@ -47,9 +48,9 @@ const Header = () => {
                 <div className="nav-toggle-menu">
                   <img
                     onClick={handleToggle}
-                    src="toggle-menu.svg"
+                    src={togglemenu}
                     alt="toggle-menu"
-                  ></img>
+                  />
                 </div>
               </>
             )}
@@ -61,7 +62,7 @@ const Header = () => {
               <img
                 onClick={clickHome}
                 className="nav-logo"
-                src="logo.svg"
+                src={logo}
                 alt="logo.svg"
               />
             )}
@@ -87,17 +88,13 @@ const Header = () => {
           )}
           <div className="nav-right">
             <div className="nav-search">
-              <img
-                className="nav-search"
-                src="search.svg"
-                alt="search.svg"
-              ></img>
+              <img className="nav-search" src={search} alt="search.svg"></img>
             </div>
             <div className="nav-login">
               <a href="/users/login">로그인</a>
             </div>
             <div className="nav-signup">
-              <a href="/users/login">가입</a>
+              <a href="/users/signup">가입</a>
             </div>
           </div>
         </nav>

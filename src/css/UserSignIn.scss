@@ -1,32 +1,92 @@
-.layout-default .page-login {
-  background-color: #fff0d3;
+.layout-default {
+  background-color: #f0f0f5;
+  width: 100vw;
+  height: 100vh;
 }
 
-.card-body {
-  border-radius: 10%;
-  border: 1px solid #3f3f3f;
-  width: 80vw;
-  height: 60vh;
-  background-color: white;
-}
-
-.split {
-  display: flex;
+.login-container {
+  padding-top: 160px;
+  padding-bottom: 160px;
 }
 
 .login-card {
-  width: 30rem;
-  padding: 4rem;
-  margin: 0 auto 1rem;
+  margin: 0px auto;
   border: none;
-  box-shadow: 10px 10px 20px 1px;
-  &.form-group {
-    &input {
-      border: none;
-      border-bottom: 1px solid #dedee6;
-    }
+  box-shadow: 0px 3px 20px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 2%;
+  width: 480px;
+  height: 480px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card-main {
+  display: flex;
+  width: 80%;
+  height: 80%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.login-top {
+  text-align: center;
+  & h3 {
+    font-size: 30px;
+    font-weight: 00;
   }
 }
 
-.form-control {
+.login-input input {
+  width: 300px;
+  height: 40px;
+
+  display: block;
+  border: none;
+  border-bottom: 1px solid rgb(230, 230, 230);
+
+  &:focus {
+    outline: 2px solid #ffb300;
+  }
+}
+
+.login-split {
+  width: 300px;
+  font-size: 10px;
+  font-weight: 800;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.login-checkbox {
+  display: flex;
+}
+
+.login-search-pw {
+  color: #ffca28;
+}
+
+.login-button-btn {
+  background-color: #ffb300;
+  color: white;
+  border: none;
+  border-radius: 30%;
+  width: 300px;
+  height: 40px;
+  font-weight: 900;
+
+  &:hover {
+    background-color: darken(#ffb300, 5%);
+  }
+}
+
+.login-signup {
+  text-align: center;
+
+  a {
+    color: #ffb300;
+  }
 }

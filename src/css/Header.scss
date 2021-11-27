@@ -10,11 +10,6 @@ header {
   top: 0px;
 }
 
-// a {
-//   text-decoration: none;
-
-// }
-
 .navigation-bar {
   display: flex;
   flex-wrap: wrap;
@@ -82,6 +77,9 @@ a {
   margin: 10px;
 }
 
+.nav-signup a {
+  color: #ffca28;
+}
 .nav-login {
   margin: auto 20px;
 }

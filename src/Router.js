@@ -8,12 +8,11 @@ import Header from "./components/Header";
 const AppRouter = () => {
   return (
     <BrowserRouter>
-      <nav> </nav>
+      <Header />
       <Routes>
         <Route exact path="/" element={<Home />}></Route>
-        <Route exact path="/Header" element={<Header />}></Route>
         <Route exact path="/users/signup" element={<UserSignUp />}></Route>\
-        <Route exact path="/users/signin" element={<UserSignIn />}></Route>
+        <Route exact path="/users/login" element={<UserSignIn />}></Route>
       </Routes>
     </BrowserRouter>
   );
