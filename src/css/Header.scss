@@ -1,0 +1,130 @@
+header {
+  margin: 0;
+  font-size: 1rem;
+  font-family: "Roboto", "Noto Sans KR", sans-serif;
+  font-weight: 400;
+  color: #3f3f3f;
+  background-color: white;
+  position: sticky;
+  width: 100%;
+  top: 0px;
+}
+
+// a {
+//   text-decoration: none;
+
+// }
+
+.navigation-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left {
+  display: flex;
+}
+
+.nav-toggle-menu {
+  margin: auto 0px auto 10px;
+}
+
+.nav-logo {
+  width: 160px;
+  height: 50px;
+  margin: auto 10px;
+}
+
+.nav-search {
+  width: 20px;
+  height: 20px;
+}
+
+a {
+  &:hover {
+    text-decoration: none;
+    color: #3f3f3f;
+  }
+
+  &:link {
+    text-decoration: none;
+    color: #3f3f3f;
+  }
+  &:visited {
+    text-decoration: none;
+    color: #867575;
+  }
+}
+
+// .nav-middle{}
+
+.nav-link {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 800;
+  margin: auto 20px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-weight: 800;
+  font-size: 12px;
+}
+
+.nav-signup {
+  border: 1px solid #ffca28;
+  border-radius: 40%;
+  padding: 5px;
+  margin: 10px;
+}
+
+.nav-login {
+  margin: auto 20px;
+}
+
+// ----------toggle bar----
+
+.overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  left: 230px;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: opacity 0.3s;
+}
+
+.toggle-container {
+  width: 230px;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  transition: 3s;
+}
+
+.toggle-logo {
+  width: 150px;
+  height: 40px;
+}
+
+.toggle-menu-home {
+  width: 220px;
+  height: 30px;
+  padding: 5px 0px 5px 10px;
+  border-top: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+  margin-top: 10px;
+}
+
+.toggle-menu {
+  padding: 5px 0px 5px 10px;
+  width: 220px;
+  height: 30px;
+  padding-left: 10px;
+  border-bottom: 1px solid #dadada;
+}
