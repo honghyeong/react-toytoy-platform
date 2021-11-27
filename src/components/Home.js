@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/Home.scss";
+import "./Header";
 
 const Home = () => {
   const clickSignUp = (event) => {

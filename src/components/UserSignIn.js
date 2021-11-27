@@ -27,60 +27,26 @@ const UserSignIn = () => {
         @import
         url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
       </style>
-      <div id="__nuxt">
-        <div className="__layout">
-          <div className="layout-default">
-            <header></header>
-            <div className="main">
-              <div className="page-login container">
-                <div className="card login-card">
-                  <div className="card-body">
-                    <h2 className="text-center">로그인</h2>
-                    <form className="form-group">
-                      <input
-                        type="text"
-                        name="email"
-                        placeholder="이메일"
-                        value={email}
-                        onChange={onChange}
-                        className="form-control"
-                      />
-                      <input
-                        type="text"
-                        name="password"
-                        placeholder="비밀번호"
-                        value={password}
-                        onChange={onChange}
-                        className="form-control"
-                      />
-                      <div className="split">
-                        <div className="left">
-                          <div className="custom-checkbox">
-                            <label>
-                              <input
-                                className="checkbox"
-                                type="checkbox"
-                                onClick={toggleCheck}
-                                checked={check}
-                              />
-                            </label>
-                          </div>
-                          <div className="custom-autologin">자동로그인</div>
-                        </div>
-                        <div className="right">비밀번호 찾기</div>
-                      </div>
-                      <div className="user-login">
-                        <button type="submit">로그인</button>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-                <div className="card signup-card">
-                  토이토이가 처음이신가요?
-                  <a href="/user/signup">회원가입</a>
-                </div>
-              </div>
+      <div className="layout-default">
+        <div className="login-container">
+          <div className="login-card">
+            <div className="login-main"></div>
+            <div className="login-input">
+              <input type="text" />
+              <input type="password" />
             </div>
+            <div className="login-split">
+              <div className="login-checkbox">
+                <input type="checkbox" />
+                <div className="login-auto">자동 로그인</div>
+              </div>
+              <div className="login-search-pw">비밀번호 찾기</div>
+            </div>
+            <div className="login-button"></div>
+          </div>
+          <div className="login-signup">
+            <span>토이토이가 처음이신가요?</span>
+            <a href="/users/signup">회원가입</a>
           </div>
         </div>
       </div>
