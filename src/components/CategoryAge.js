@@ -5,6 +5,7 @@ import EachToy from "./EachToy";
 import slime from "../assets/slime.jpg";
 import tayo from "../assets/tayo.jpg";
 import jenga from "../assets/jenga.jpg";
+import search from "../assets/search.svg";
 
 // dummy toy data
 const toylist = [
@@ -41,9 +42,16 @@ const CategoryAge = () => {
       <section>
         <div className="age-landing-1">
           <div className="age-search">
+            <img src={search} alt="search" />
             <input type="text"></input>
           </div>
-          <div className="age-sort"></div>
+
+          <div className="age-sort">
+            <button>전체보기</button>
+            <button>나이</button>
+            <button>가격대</button>
+            <button>유튜버</button>
+          </div>
         </div>
         <div className="age-landing-2">
           <div className="age-container">
