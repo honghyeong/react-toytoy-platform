@@ -100,7 +100,7 @@ const Header = () => {
         </nav>
         {toggle && !width ? (
           <>
-            <nav className="mobile-navigation-bar">
+            <nav className="mobile-navigation-bar-show">
               <div className="overlay"></div>
               <div className="toggle-container">
                 <div className="toggle-top"></div>
@@ -120,7 +120,26 @@ const Header = () => {
             </nav>
           </>
         ) : (
-          <></>
+          <>
+            {/* <nav className="mobile-navigation-bar-hide">
+              <div className="overlay"></div>
+              <div className="toggle-container">
+                <div className="toggle-top"></div>
+                <div className="toggle-menu-home">
+                  <a href="/">Home</a>
+                </div>
+                <div className="toggle-menu">
+                  <a href="/Age">Age</a>
+                </div>
+                <div className="toggle-menu">
+                  <a href="/Price">Price</a>
+                </div>
+                <div className="toggle-menu">
+                  <a href="/Youtuber">Youtuber</a>
+                </div>
+              </div>
+            </nav> */}
+          </>
         )}
       </header>
     </>
