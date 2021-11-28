@@ -86,24 +86,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-      <footer className="app-footer">
-        <div className="top">
-          <ul className="top-left">
-            <li>이용약관</li>
-            <li>개인정보처리방침</li>
-            <li>FAQ</li>
-          </ul>
-          <div className="copyright-mobile">
-            Copyright © 2019 - 2021 Theori Inc. All rights reserved.
-          </div>
-          <div className="top-right"></div>
-        </div>
-        <div className="horizon"></div>
-        <div className="bottom">
-          <div className="bottom-right"></div>
-        </div>
-      </footer>
     </>
   );
 };
