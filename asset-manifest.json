@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-toytoy-platform/static/css/main.f6a8d0a9.chunk.css",
+    "main.js": "/react-toytoy-platform/static/js/main.180a902d.chunk.js",
+    "main.js.map": "/react-toytoy-platform/static/js/main.180a902d.chunk.js.map",
+    "runtime-main.js": "/react-toytoy-platform/static/js/runtime-main.615aa3d9.js",
+    "runtime-main.js.map": "/react-toytoy-platform/static/js/runtime-main.615aa3d9.js.map",
+    "static/js/2.64fd945e.chunk.js": "/react-toytoy-platform/static/js/2.64fd945e.chunk.js",
+    "static/js/2.64fd945e.chunk.js.map": "/react-toytoy-platform/static/js/2.64fd945e.chunk.js.map",
+    "index.html": "/react-toytoy-platform/index.html",
+    "static/css/main.f6a8d0a9.chunk.css.map": "/react-toytoy-platform/static/css/main.f6a8d0a9.chunk.css.map",
+    "static/js/2.64fd945e.chunk.js.LICENSE.txt": "/react-toytoy-platform/static/js/2.64fd945e.chunk.js.LICENSE.txt",
+    "static/media/homeCategory1.d35d668e.jpg": "/react-toytoy-platform/static/media/homeCategory1.d35d668e.jpg",
+    "static/media/homeCategory3.328cda94.jpg": "/react-toytoy-platform/static/media/homeCategory3.328cda94.jpg",
+    "static/media/jenga.dd42c422.jpg": "/react-toytoy-platform/static/media/jenga.dd42c422.jpg",
+    "static/media/logo.e3794cf5.svg": "/react-toytoy-platform/static/media/logo.e3794cf5.svg",
+    "static/media/search.9912bfae.svg": "/react-toytoy-platform/static/media/search.9912bfae.svg",
+    "static/media/togglemenu.5cc298bd.svg": "/react-toytoy-platform/static/media/togglemenu.5cc298bd.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.615aa3d9.js",
+    "static/js/2.64fd945e.chunk.js",
+    "static/css/main.f6a8d0a9.chunk.css",
+    "static/js/main.180a902d.chunk.js"
+  ]
+}
