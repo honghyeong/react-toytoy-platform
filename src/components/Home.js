@@ -21,15 +21,20 @@ const Home = () => {
           <div className="container">
             <div className="left">
               <img className="logo" src="logo.svg" alt="logo.svg" />
-              <h1>장난감 플랫폼, 토이토이</h1>
-              <p>
-                ToyToy는 어른과 어린이 모두를 위한 장난감 중고거래 플랫폼입니다.
-              </p>
-              <p>장난감을 카테고리별로 쉽게 사고, 팔고 추천해줄 수 있습니다.</p>
-              <p>
-                아이가 성장하면서 필요없어진 장난감을 안심하며 중고로 거래할 수
-                있도록 도와줍니다.{" "}
-              </p>
+              <div className="left-text">
+                <h1>장난감 플랫폼, 토이토이</h1>
+                <p>
+                  ToyToy는 어른과 어린이 모두를 위한 장난감 중고거래
+                  플랫폼입니다.
+                </p>
+                <p>
+                  장난감을 카테고리별로 쉽게 사고, 팔고 추천해줄 수 있습니다.
+                </p>
+                <p>
+                  아이가 성장하면서 필요없어진 장난감을 안심하며 중고로 거래할
+                  수 있도록 도와줍니다.{" "}
+                </p>
+              </div>
               <div className="mobile-button">
                 <button onClick={clickSignUp} className="home-signup">
                   가입하기

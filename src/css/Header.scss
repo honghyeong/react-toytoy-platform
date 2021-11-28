@@ -88,6 +88,24 @@ a {
 
 // ----------toggle bar----
 
+.mobile-navigation-bar-show {
+  height: 100vh;
+  width: 230px;
+  position: absolute;
+  left: 0px;
+  background-color: rgb(255, 255, 255);
+  transition: 3s;
+}
+
+// .mobile-navigation-bar-hide {
+//   height: 100vh;
+//   width: 230px;
+//   position: absolute;
+//   left: -230px;
+//   background-color: rgb(255, 255, 255);
+//   transition: 1s;
+// }
+
 .overlay {
   position: fixed;
   width: 100vw;
@@ -99,9 +117,6 @@ a {
 }
 
 .toggle-container {
-  width: 230px;
-  height: 100%;
-  background-color: white;
   display: flex;
   flex-direction: column;
   transition: 3s;

@@ -14,7 +14,7 @@ p {
 img {
   vertical-align: middle;
   text-align: center;
-  display: flexbox;
+  display: flex;
   margin: 0px auto;
 }
 
@@ -27,9 +27,15 @@ img {
   padding: 0 40px;
 }
 
-.left p {
+.left {
   font-size: 12px;
   font-weight: 600;
+  // display: flex;
+}
+
+.left-text {
+  text-align: center;
+  padding: 0 auto;
 }
 
 .logo {
@@ -85,4 +91,8 @@ img {
 .row p {
   font-size: 12px;
   margin: 0;
+}
+
+.row3 {
+  margin-bottom: 30px;
 }

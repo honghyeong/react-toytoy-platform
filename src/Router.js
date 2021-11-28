@@ -5,6 +5,7 @@ import UserSignUp from "./components/UserSignUp";
 import UserSignIn from "./components/UserSignIn";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import CategoryAge from "./components/CategoryAge";
 
 const AppRouter = () => {
   return (
@@ -12,7 +13,8 @@ const AppRouter = () => {
       <Header />
       <Routes>
         <Route exact path="/" element={<Home />}></Route>
-        <Route exact path="/users/signup" element={<UserSignUp />}></Route>\
+        <Route exact path="/age" element={<CategoryAge />}></Route>
+        <Route exact path="/users/signup" element={<UserSignUp />}></Route>
         <Route exact path="/users/login" element={<UserSignIn />}></Route>
       </Routes>
       <Footer />
