@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/Footer.scss";
 
 const Footer = () => {
   return (
@@ -7,13 +8,15 @@ const Footer = () => {
         <div className="footer-top">
           <ul>
             <li>
-              <a href="">이용약관</a>
+              <a href="/services/tos">이용약관</a>
             </li>
+            <li>|</li>
             <li>
-              <a href="">개인정보처리방침</a>
+              <a href="/services/privacy">개인정보처리방침</a>
             </li>
+            <li>|</li>
             <li>
-              <a href="">FAQ</a>
+              <a href="/services/faq">FAQ</a>
             </li>
           </ul>
         </div>

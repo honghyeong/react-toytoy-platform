@@ -1,0 +1,38 @@
+.footer-container {
+  padding: 5px;
+  background-color: #fff0d3;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  font-size: 13px;
+  float: left;
+  margin-left: 7px;
+  font-weight: 800;
+}
+ul {
+  padding-left: 0px;
+  padding-bottom: 10px;
+}
+
+.footer-top a {
+  &:hover {
+    text-decoration-line: underline;
+  }
+}
+
+.footer-copyright {
+  font-size: 8px;
+}
+
+hr {
+  width: 100vw;
+}
+
+.footer-bottom {
+  font-size: 8px;
+}
