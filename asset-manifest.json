@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-toytoy-platform/static/css/main.f6a8d0a9.chunk.css",
-    "main.js": "/react-toytoy-platform/static/js/main.180a902d.chunk.js",
-    "main.js.map": "/react-toytoy-platform/static/js/main.180a902d.chunk.js.map",
+    "main.js": "/react-toytoy-platform/static/js/main.bed382e9.chunk.js",
+    "main.js.map": "/react-toytoy-platform/static/js/main.bed382e9.chunk.js.map",
     "runtime-main.js": "/react-toytoy-platform/static/js/runtime-main.615aa3d9.js",
     "runtime-main.js.map": "/react-toytoy-platform/static/js/runtime-main.615aa3d9.js.map",
     "static/js/2.64fd945e.chunk.js": "/react-toytoy-platform/static/js/2.64fd945e.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.615aa3d9.js",
     "static/js/2.64fd945e.chunk.js",
     "static/css/main.f6a8d0a9.chunk.css",
-    "static/js/main.180a902d.chunk.js"
+    "static/js/main.bed382e9.chunk.js"
   ]
 }
