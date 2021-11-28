@@ -9,7 +9,13 @@ const UserSignUp = () => {
       </style>
 
       <section>
-        <div className></div>
+        <div className="layout-default">
+          <div className="signup-container">
+            <div className=""></div>
+            <div className="signup-google"></div>
+            <div className="signup-facebook"></div>
+          </div>
+        </div>
       </section>
     </>
   );
