@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import UserSignUp from "./components/UserSignUp";
 import UserSignIn from "./components/UserSignIn";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 const AppRouter = () => {
   return (
@@ -14,6 +15,7 @@ const AppRouter = () => {
         <Route exact path="/users/signup" element={<UserSignUp />}></Route>\
         <Route exact path="/users/login" element={<UserSignIn />}></Route>
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 };
